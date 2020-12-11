@@ -1,0 +1,39 @@
+html {
+font-family: system-ui;
+text-align: center;
+background-color: lightskyblue;
+}
+
+h1, h2 {
+text-decoration-color: aqua;
+text-decoration: underline;
+}
+
+section, #my_carousel_1, #my_carousel_2 {
+border: 3px solid black;
+border-radius: 20px;
+padding: 8px;
+background-color: darkorange;
+margin-bottom: 10px;
+}
+
+.line {
+width: 80px;
+height 20px;
+background-color: black;
+}
+
+#games a img {
+transition: transform 0.2s;
+}
+
+#games a img:hover {
+transform: scale(1.5);
+}
+
+.carousel-inner {
+margin-top: 15px;
+margin-bottom: 15px;
+font-size: 20px;
+color: white;
+}
